@@ -1,4 +1,4 @@
-# Abdirahman Osman Ali Portfolio v2
+# xurshow Portfolio 
 
 Static portfolio website built with HTML, CSS and JavaScript.
 
