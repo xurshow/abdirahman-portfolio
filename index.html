@@ -37,8 +37,18 @@
           <h2>I build and support practical digital systems.</h2>
           <p class="hero-text">I’m an IT and networking enthusiast with hands-on experience in cloud infrastructure, networking, backend APIs, databases and web technologies. I enjoy turning technical ideas into reliable, secure solutions.</p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#projects">View Projects <i class="fa-solid fa-arrow-right"></i></a>
-            <a class="btn btn-outline" href="#contact"><i class="fa-regular fa-envelope"></i> Get in touch</a>
+              <a class="btn btn-primary" href="#projects">
+                    View Projects <i class="fa-solid fa-arrow-right"></i>
+
+              </a>
+                <a class="btn btn-primary cv-btn" href="#">
+                    <i class="fa-solid fa-download"></i> Download CV
+                </a>
+                <a class="btn btn-outline" href="#contact">
+                      <i class="fa-regular fa-envelope"></i> Get in touch
+
+                 </a>
+
           </div>
           <div class="socials">
             <a href="https://www.linkedin.com/in/abdirahman-ali-446326381/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
@@ -150,6 +160,8 @@
             <div><h3>Bachelor’s Degree in Computer Science & IT</h3><p>Somali National University (Umadda)</p><small>2022 – Present • Expected graduation: 2027</small></div>
           </div>
           <div class="cert-grid">
+              <div class="cert-card reveal"><i class="fa-solid fa-certificate"></i><h3>AWS Training</h3><p>Tabaarak ICT Solutions • 2026</p></div>
+
             <div class="cert-card reveal"><i class="fa-solid fa-certificate"></i><h3>CCNA Training</h3><p>Somali Network Academy • 2025</p></div>
             <div class="cert-card reveal"><i class="fa-solid fa-certificate"></i><h3>Network Fundamentals</h3><p>Internet Society • 2025</p></div>
             <div class="cert-card reveal"><i class="fa-solid fa-certificate"></i><h3>Basic Networking & Storage</h3><p>Coursera • 2024</p></div>
@@ -172,5 +184,11 @@
   </footer>
 
   <script src="script.js"></script>
+  <script>
+document.querySelector('.cv-btn').addEventListener('click', function(e){
+    e.preventDefault();
+    alert("You don't have permission to download this file.");
+});
+</script>
 </body>
 </html>
